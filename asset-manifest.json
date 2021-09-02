@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Cotizador-de-seguros/static/css/main.f3f55134.chunk.css",
+    "main.js": "/Cotizador-de-seguros/static/js/main.666af464.chunk.js",
+    "main.js.map": "/Cotizador-de-seguros/static/js/main.666af464.chunk.js.map",
+    "runtime-main.js": "/Cotizador-de-seguros/static/js/runtime-main.8138f1a9.js",
+    "runtime-main.js.map": "/Cotizador-de-seguros/static/js/runtime-main.8138f1a9.js.map",
+    "static/js/2.11d6d784.chunk.js": "/Cotizador-de-seguros/static/js/2.11d6d784.chunk.js",
+    "static/js/2.11d6d784.chunk.js.map": "/Cotizador-de-seguros/static/js/2.11d6d784.chunk.js.map",
+    "index.html": "/Cotizador-de-seguros/index.html",
+    "static/css/main.f3f55134.chunk.css.map": "/Cotizador-de-seguros/static/css/main.f3f55134.chunk.css.map",
+    "static/js/2.11d6d784.chunk.js.LICENSE.txt": "/Cotizador-de-seguros/static/js/2.11d6d784.chunk.js.LICENSE.txt",
+    "static/media/Portada.df8ff574.jpg": "/Cotizador-de-seguros/static/media/Portada.df8ff574.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8138f1a9.js",
+    "static/js/2.11d6d784.chunk.js",
+    "static/css/main.f3f55134.chunk.css",
+    "static/js/main.666af464.chunk.js"
+  ]
+}
