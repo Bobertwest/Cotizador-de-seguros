@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Cotizador-de-seguros/static/css/main.60f5c49c.chunk.css",
-    "main.js": "/Cotizador-de-seguros/static/js/main.5271a9a8.chunk.js",
-    "main.js.map": "/Cotizador-de-seguros/static/js/main.5271a9a8.chunk.js.map",
+    "main.js": "/Cotizador-de-seguros/static/js/main.5dc19af7.chunk.js",
+    "main.js.map": "/Cotizador-de-seguros/static/js/main.5dc19af7.chunk.js.map",
     "runtime-main.js": "/Cotizador-de-seguros/static/js/runtime-main.8138f1a9.js",
     "runtime-main.js.map": "/Cotizador-de-seguros/static/js/runtime-main.8138f1a9.js.map",
     "static/js/2.11d6d784.chunk.js": "/Cotizador-de-seguros/static/js/2.11d6d784.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.8138f1a9.js",
     "static/js/2.11d6d784.chunk.js",
     "static/css/main.60f5c49c.chunk.css",
-    "static/js/main.5271a9a8.chunk.js"
+    "static/js/main.5dc19af7.chunk.js"
   ]
 }
