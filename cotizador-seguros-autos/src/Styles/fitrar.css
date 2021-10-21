@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+.filtrarContainer {
+  padding-bottom: 50px;
+}
+
+.filtrarContainer .filtrarTitulo {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  padding-left: 9%;
+}
+
+.filtrarContainer .seleccion {
+  padding: 0 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filtrarContainer .seleccion select {
+  width: 30%;
+  border-radius: 15px;
+  padding: 8px 1%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 33px;
+  outline: none;
+  background-color: #ffff;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.filtrarContainer .quitarFiltro {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffff;
+  background-color: #151515;
+  margin-top: 2%;
+  margin-left: 9%;
+  padding: 1% 2%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 537px) {
+  .filtrarContainer .seleccion {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .filtrarContainer .seleccion select {
+    margin-bottom: 10px;
+    width: 60%;
+    padding: 10px 1%;
+  }
+}
+/*# sourceMappingURL=fitrar.css.map */

@@ -1,0 +1,9 @@
+@import "_paleta";
+
+.allModelsContainer {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 5%;
+}

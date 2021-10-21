@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,mBAAmB,CAAC;EAClB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;EAC7B,OAAO,EAAE,IAAI;CACd",
+    "sources": [
+        "carros.scss",
+        "_paleta.scss"
+    ],
+    "names": [],
+    "file": "carros.css"
+}

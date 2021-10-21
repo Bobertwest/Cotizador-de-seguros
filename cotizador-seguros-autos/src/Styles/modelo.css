@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Roboto:wght@100;300&display=swap");
+.modeloContainer {
+  width: 30%;
+  height: auto;
+  padding: 3% 0;
+  margin-bottom: 3%;
+  background: #fdfdfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.modeloContainer .imagen {
+  width: 70%;
+}
+
+.modeloContainer .informacion {
+  width: 100%;
+  padding: 1% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modeloContainer .informacion .carro {
+  margin: 0;
+  margin-left: 20%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.modeloContainer .informacion .precio {
+  margin: 0;
+  margin-right: 20%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.modeloContainer .botonCotizar {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #d60000;
+  border-radius: 17px;
+  color: #ffff;
+  border: none;
+  outline: none;
+  width: 45%;
+  margin-top: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1% 0;
+}
+/*# sourceMappingURL=modelo.css.map */

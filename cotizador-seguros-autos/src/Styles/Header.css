@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.header {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 30px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .logo {
+  color: #ffff;
+  font-family: "Pacifico", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  margin: 0;
+  margin-left: 38px;
+}
+
+.header .logo::after {
+  content: " car secures";
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.header .botones {
+  margin-right: 141px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 25%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-animation: fadeSide 2s;
+          animation: fadeSide 2s;
+}
+
+.header .botones .menu {
+  display: none;
+  font-size: 40px;
+}
+
+.header .botones button {
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.header .botones button:hover {
+  color: #00d0ff;
+}
+
+@-webkit-keyframes fadeSide {
+  0% {
+    margin-right: 5px;
+  }
+  100% {
+    margin-right: 141px;
+  }
+}
+
+@keyframes fadeSide {
+  0% {
+    margin-right: 5px;
+  }
+  100% {
+    margin-right: 141px;
+  }
+}
+
+.header .menuDesplegable {
+  width: 100%;
+  height: 30px;
+  background-color: #1d1d1d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2% 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-animation: fadeDown 0.5s;
+          animation: fadeDown 0.5s;
+}
+
+.header .menuDesplegable button {
+  height: inherit;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@-webkit-keyframes fadeDown {
+  0% {
+    height: 0;
+    color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    height: 30px;
+  }
+}
+
+@keyframes fadeDown {
+  0% {
+    height: 0;
+    color: rgba(0, 0, 0, 0);
+  }
+  100% {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .header .botones {
+    margin-right: 50px;
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .header .botones {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .header .botones button {
+    display: none;
+  }
+  .header .botones .menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .header .logo {
+    font-size: 50px;
+  }
+  .header .logo::after {
+    font-size: 30px;
+  }
+  .header .botones {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .header .logo {
+    margin-left: 5%;
+    font-size: 30px;
+  }
+  .header .logo::after {
+    font-size: 20px;
+  }
+  .header .botones {
+    margin-right: 5%;
+  }
+  .header .botones .menu {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */
